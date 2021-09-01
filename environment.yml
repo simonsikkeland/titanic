@@ -1,0 +1,11 @@
+name: titanic
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3
+- pip
+- tensorflow-gpu
+
+- pip:
+  - -r file:requirements.txt
